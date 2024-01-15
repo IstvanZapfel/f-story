@@ -3597,7 +3597,7 @@
                 break;
 
               case "center":
-                this.offset = heightWindow / 2 - (topToWindow + heightParent / 2);
+                this.offset = heightWindow / 2 - (topToWindow + heightParent / 3);
                 break;
 
               case "bottom":
