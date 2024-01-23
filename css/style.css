@@ -487,6 +487,7 @@ body {
   text-align: center;
   font-family: Lalezar;
   font-size: 120px;
+  padding: 1.875rem 0;
   font-style: normal;
   font-weight: 400;
   line-height: 108.333%;
@@ -2272,7 +2273,7 @@ body {
     display: block;
     position: relative;
     width: 1.875rem;
-    height: 1.125rem;
+    height: 1.25rem;
     z-index: 5;
     margin: 1.875rem 0rem 3.25rem 0rem;
   }

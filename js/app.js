@@ -3573,7 +3573,7 @@
             this.animation = this.animationFrame.bind(this);
             this.offset = 0;
             this.value = 0;
-            this.smooth = parent.dataset.prlxSmooth ? Number(parent.dataset.prlxSmooth) : 15;
+            this.smooth = parent.dataset.prlxSmooth ? Number(parent.dataset.prlxSmooth) : 10;
             this.setEvents();
         }
         setEvents() {
@@ -3610,7 +3610,7 @@
                 const parameters = {
                     axis: el.dataset.axis ? el.dataset.axis : "v",
                     direction: el.dataset.direction ? el.dataset.direction + "1" : "-1",
-                    coefficient: el.dataset.coefficient ? Number(el.dataset.coefficient) : 5,
+                    coefficient: el.dataset.coefficient ? Number(el.dataset.coefficient) : 8,
                     additionalProperties: el.dataset.properties ? el.dataset.properties : ""
                 };
                 this.parameters(el, parameters);
